@@ -83,10 +83,14 @@ public class MainActivity extends BaseActivity {
             }
         });
 
+
     }
 
     @Override
     protected int layoutId() {
         return R.layout.activity_main;
+    }
+    public void Tiao(){
+        viewPager.setCurrentItem(2);
     }
 }

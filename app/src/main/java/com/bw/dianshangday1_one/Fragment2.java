@@ -4,6 +4,8 @@ import android.content.Intent;
 import android.view.View;
 import android.widget.Button;
 
+import androidx.fragment.app.FragmentActivity;
+
 /**
  * DateTime:2019/11/29 0029
  * author:朱贵全(Administrator)
@@ -24,6 +26,8 @@ public class Fragment2 extends BaseFragment {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                MainActivity activity =(MainActivity) getActivity();
+                activity.Tiao();
 
             }
         });
